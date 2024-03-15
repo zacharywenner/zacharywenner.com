@@ -277,6 +277,25 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Dallas Legion */
+.button.button-dallaslegion {
+  color: #000000;
+  /* https://coolors.co/gradient-maker/ffd326-fdb71a?position=0,70&opacity=100,100&type=radial&rotation=0 */
+  background: hsla(48, 100%, 57%, 1);
+  background: radial-gradient(circle, hsla(48, 100%, 57%, 1) 0%, hsla(41, 98%, 55%, 1) 70%);
+  background: -moz-radial-gradient(circle, hsla(48, 100%, 57%, 1) 0%, hsla(41, 98%, 55%, 1) 70%);
+  background: -webkit-radial-gradient(circle, hsla(48, 100%, 57%, 1) 0%, hsla(41, 98%, 55%, 1) 70%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD326", endColorstr="#FDB71A", GradientType=1 );
+}
+.button.button-dallaslegion:hover,
+.button.button-dallaslegion:focus {
+  filter: brightness(90%);
+}
+.button.button-dallaslegion .icon {
+  width: 22px;
+  height: 26.4px;
+}
+
 /* dev.to */
 .button.button-dev-to {
   color: #000000;
@@ -965,6 +984,25 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Through the Word */
+.button.button-throughtheword {
+  color: #ffffff;
+  /* https://coolors.co/gradient-maker/ff6600-ff973f?position=0,100&opacity=100,100&type=linear&rotation=45 */
+  background: hsla(24, 100%, 50%, 1);
+  background: linear-gradient(45deg, hsla(24, 100%, 50%, 1) 0%, hsla(27, 100%, 62%, 1) 100%);
+  background: -moz-linear-gradient(45deg, hsla(24, 100%, 50%, 1) 0%, hsla(27, 100%, 62%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(24, 100%, 50%, 1) 0%, hsla(27, 100%, 62%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF6600", endColorstr="#FF973F", GradientType=1 );
+}
+.button.button-throughtheword:hover,
+.button.button-throughtheword:focus {
+  filter: brightness(90%);
+}
+.button.button-throughtheword .icon {
+  width: 26.4px;
+  height: 22px;
+}
+
 /* TikTok */
 .button.button-tiktok {
   color: #ffffff;
@@ -1015,6 +1053,20 @@ button:hover,
 .button.button-twitch:hover,
 .button.button-twitch:focus {
   filter: brightness(90%);
+}
+
+/* UFA Ultimate Frisbee Association */
+.button.button-ufa {
+  color: #152F56;
+  background-color: #ffffff;
+  border: 1px solid #152F56;
+}
+.button.button-ufa:hover,
+.button.button-ufa:focus {
+  filter: brightness(90%);
+}
+.button.button-ufa .icon {
+  width: 45px;
 }
 
 /* Unsplash */
